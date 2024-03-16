@@ -22,7 +22,7 @@ main()
 			contador=contador+1;
 			contap=0; contan=0;
 			cout<< "Modulos"<<endl;
-			cout<< "1)C3 RAP1.CARACTERIZAR LA INFORMACIÓN A RECOLECTAR.\n(Establecer requisitos de la solución)"<<endl;
+			cout<< "1)C3 RAP1.CARACTERIZAR LA INFORMACIÓN A RECOLECTAR.\n(Establecer requisitos de la solución)."<<endl;
 			cout<< "2)C3 RAP2.INTERPRETAR EL INFORME DE REQUISITOS.\n(Establecer requisitos de la solución)."<<endl;
 			cout<< "3)C1 RAP1.RESOLVER PROCESOS LÓGICOS.\n(DESARROLLAR LA SOLUCIÓN DE SOFTWARE)"<<endl;
 			cout<< "4)C1 RAP3.CODIFICAR EL SOFTWARE.\n(DESARROLLAR LA SOLUCIÓN DE SOFTWARE)"<<endl;
@@ -168,7 +168,7 @@ main()
 							cout<<"c)ios"<<endl;
 							cout<<"d)a y c son correctas"<<endl;
 							cin>>respuesta;
-	 
+
 						    if(respuesta=='d')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
@@ -187,7 +187,7 @@ main()
 							cout<<"c)C#"<<endl;
 							cout<<"d)PHP"<<endl;
 							cin>>respuesta;
-	 
+
 						    if(respuesta=='b')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
@@ -206,7 +206,7 @@ main()
 							cout<<"c)Para facilitar ciertas tareas complejas y hacer mas sencilla la experiencia informatica de las personas"<<endl;
 							cout<<"d)ninguna de las anteriores"<<endl;
 							cin>>respuesta;
-	 
+
 						    if(respuesta=='c')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
@@ -225,7 +225,7 @@ main()
 							cout<<"c)Es una aplicacion web con gestor de contenidos"<<endl;
 							cout<<"d)ninguna de las anteriores"<<endl;
 							cin>>respuesta;
-	 
+
 						    if(respuesta=='a')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
@@ -244,7 +244,7 @@ main()
 							cout<<"c)Sirven para cargar información en el sistema operativo"<<endl;
 							cout<<"d)para  cambiar su contenido, manteniendo el mismo diseño y estilo"<<endl;
 							cin>>respuesta;
-	 
+
 						    if(respuesta=='a')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
@@ -263,7 +263,7 @@ main()
 							cout<<"c)todos los sistemas operativos."<<endl;
 							cout<<"d) la respuesta b y c son correctas."<<endl;
 							cin>>respuesta;
-	 
+
 						    if(respuesta=='a')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
@@ -282,7 +282,7 @@ main()
 							cout<<"c)chrome"<<endl;
 							cout<<"d)NetFront"<<endl;
 							cin>>respuesta;
-	 
+
 						    if(respuesta=='c')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
@@ -301,7 +301,7 @@ main()
 							cout<<"c)Dispositivo Móvil"<<endl;
 							cout<<"d)lenguaje de desarrollo"<<endl;
 							cin>>respuesta;
-	 
+
 						    if(respuesta=='a')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
@@ -320,7 +320,7 @@ main()
 							cout<<"c)ios"<<endl;
 							cout<<"d)a y c son correctas"<<endl;
 							cin>>respuesta;
-	 
+
 						    if(respuesta=='d')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
@@ -339,7 +339,7 @@ main()
 							cout<<"c)Unicamente en la nube"<<endl;
 							cout<<"d)Hibridamente mitad nube, mitad dispositivo"<<endl;
 							cin>>respuesta;
-	 
+
 						    if(respuesta=='b')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
@@ -355,13 +355,60 @@ main()
 						break;
 						}
 				break;
-				case 3: 
-					cout<<"RESOLVER PROCESOS LÓGICOS"<<endl; 
-					cout<<"1-¿Cual de las siguientes estructuras de control se usa en c++?"<<endl;
-					cout<<"a)cin,cout,if"<<endl;
-					cout<<"b)read,write,buy"<<endl;
-					cout<<"c)tools,fingers,iqual"<<endl;
-					cout<<"d)thing,thought,learn"<<endl;
+				case 3:	
+				
+				
+				
+							 
+					cout<<"RESOLVER PROCESOS LÓGICOS Y ESTRUCTURAS SECUENCIALES EN LA CONSTRUCCION DE ALGORITMO"<<endl; ///PREGUNTAS MAIRON
+					
+					
+					
+					
+					
+					
+					cout<<"1-¿Cuál de las siguientes operaciones lógicas representa la negación en lógica proposicional?"<<endl;
+					cout<<"a) AND"<<endl;
+					cout<<"b) OR"<<endl;
+					cout<<"c) XOR"<<endl;
+					cout<<"d) NOT"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='d')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+					  	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<"La respuesta correcta es la (d)-(NOT)"<<endl<<endl; 
+						}	 
+					cout<<"2-¿Qué operador lógico se utiliza para evaluar si al menos una de dos condiciones es verdadera?"<<endl;
+					cout<<"a) AND"<<endl;
+					cout<<"b) OR"<<endl;
+					cout<<"d) XOR"<<endl;
+					cout<<"e) NOR"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<"La respuesta correcta es la (b)-(OR)"<<endl ;
+							
+						}	
+					cout<<"3-¿Cuál de las siguientes afirmaciones describe la equivalencia lógica?"<<endl;
+					cout<<"a) Si y solo si"<<endl;
+					cout<<"b) No es verdad que"<<endl;
+					cout<<"c) Si entonces"<<endl;
+					cout<<"d) Ambas a y b"<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='a')
@@ -373,45 +420,12 @@ main()
 						{
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
-						}	 
-					cout<<"2-¿como se dice pantalla en ingles?"<<endl;
-					cout<<"a)mouse"<<endl;
-					cout<<"b)keyboard"<<endl;
-					cout<<"c)screen"<<endl;
-					cout<<"d)laptop"<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='c')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
+							cout<<"La respuesta correcta es la a (Si y solo si)"<<endl<<endl;
 						}	
-					cout<<"3-¿con cual de las siguientes frases se inicia una convresacion en ingles?"<<endl;
-					cout<<"a)I am fine"<<endl;
-					cout<<"b)it's to late"<<endl;
-					cout<<"c)nice to meet you too"<<endl;
-					cout<<"d)hi how are you"<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='d')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
-						}	
-					cout<<"4-¿cual de las siguientes estructuras se usa para establecer tipo cadena en c++?"<<endl;
-					cout<<"a)int"<<endl;
-					cout<<"b)cout"<<endl;
-					cout<<"c)string"<<endl;
+					cout<<"4-¿Cuál de las siguientes opciones describe mejor una estructura if-else en programación?"<<endl;
+					cout<<"a) Se utiliza para repetir un bloque de código mientras se cumpla una condición."<<endl;
+					cout<<"b) Permite ejecutar diferentes bloques de código según el valor de una expresión."<<endl;
+					cout<<"c) Es una estructura de control exclusiva de C++"<<endl;
 					cout<<"d)cin"<<endl;
 					cin>>respuesta;
 
@@ -424,12 +438,13 @@ main()
 						{
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
+							cout<<"La respuesta correcta es la (b)-(Permite ejecutar diferentes bloques de código según el valor de una expresión.)";
 						}
-					cout<<"5-¿como se escribe este numero en ingles 896?"<<endl;
-					cout<<"a)eighteen"<<endl;
-					cout<<"b)one hundred twenty six"<<endl;
-					cout<<"c)fourty five"<<endl;
-					cout<<"d)eight hundred ninety six"<<endl;
+					cout<<"5-¿Qué característica distingue a una estructura while de una estructura for en programación?"<<endl;
+					cout<<"a) While permite iterar sobre una secuencia de elementos."<<endl;
+					cout<<"b) For evalúa una condición antes de ejecutar el bloque de código."<<endl;
+					cout<<"c) While ejecuta el bloque de código al menos una vez."<<endl;
+					cout<<"d) For es más eficiente en términos de rendimiento."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='d')
@@ -441,12 +456,31 @@ main()
 						{
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
+							cout<<"La respuesta correcta es la (c-(While ejecuta el bloque de código al menos una vez.)"<<endl<<endl;
 						}										 
-					cout<<"6-¿cuales de los siguientes terminos son indispensables en la programacion?"<<endl;
-					cout<<"a)smoke,drink,dance"<<endl;
-					cout<<"b)develop,template,toolbar"<<endl;
-					cout<<"c)username,password,wifi"<<endl;
-					cout<<"d)screen,phone,code"<<endl;
+					cout<<"6-¿Cuándo es más apropiado utilizar una estructura do-while en lugar de una estructura while en programación?"<<endl;
+					cout<<"a) Cuando se necesita ejecutar un bloque de código al menos una vez."<<endl;
+					cout<<"b) Cuando se requiere iterar sobre una secuencia de elementos conocida."<<endl;
+					cout<<"c) Cuando se tienen múltiples condiciones para evaluar."<<endl;
+					cout<<"d) Cuando se desea iterar indefinidamente hasta que se cumpla una condición de salida."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='a')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<"La respuesta correcta es la (a)-Cuando se necesita ejecutar un bloque de código al menos una vez)"<<endl<<endl;
+						}	 
+					cout<<"7-¿Qué hace la palabra clave break en el contexto de las estructuras de control en programación?"<<endl;
+					cout<<"a) Finaliza la ejecución del programa."<<endl;
+					cout<<"b) Detiene la ejecución del bucle actual y continúa con la siguiente iteración."<<endl;
+					cout<<"c) Salta a la siguiente declaración case en una estructura switch-case."<<endl;
+					cout<<"d) Termina la ejecución del bloque de código actual y pasa al siguiente bloque."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='b')
@@ -458,29 +492,13 @@ main()
 						{
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
-						}	 
-					cout<<"7-¿que lenguajes de programacion no son basados en el idioma ingles?"<<endl;
-					cout<<"a)phyton,lua,ruby"<<endl;
-					cout<<"b)java,c++,phyton"<<endl;
-					cout<<"c)c++,php,basic"<<endl;
-					cout<<"d)visual basic,swift,ruby"<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='a')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
+							cout<<"La respuesta correcta es la (b)-Detiene la ejecución del bucle actual y continúa con la siguiente iteración."<<endl<<endl;
 						}	
-					cout<<"8-I from bogota,¿what is my country?"<<endl;
-					cout<<"a)Venezuela"<<endl;
-					cout<<"b)USA"<<endl;
-					cout<<"c)Honduras"<<endl;
-					cout<<"d)Colombia"<<endl;
+					cout<<"8-¿Cuál es el propósito de la palabra clave default en una estructura switch-case?"<<endl;
+					cout<<"a) Define un caso específico que se ejecuta por defecto."<<endl;
+					cout<<"b) Es un error de sintaxis en la estructura switch-case."<<endl;
+					cout<<"c) Indica el final del bloque de código de la estructura switch-case"<<endl;
+					cout<<"d) Proporciona un comportamiento predeterminado cuando ninguno de los casos coincide con el valor de la expresión."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='d')
@@ -492,29 +510,329 @@ main()
 						{
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
+							cout<<"La respuesta correcta es la (d)-Proporciona un comportamiento predeterminado cuando ninguno de los casos coincide con el valor de la expresión."<<endl<<endl;
 						}	
-					cout<<"9-¿which of these language is for beginners?"<<endl;
-					cout<<"a)lpp"<<endl;
-					cout<<"b)phyton"<<endl;
-					cout<<"c)c++"<<endl;
-					cout<<"d)visual basic"<<endl;
+					cout<<"9-¿Cuál es una consideración importante al utilizar una estructura switch-case en programación?"<<endl;
+					cout<<"a) No es necesario incluir un caso por defecto."<<endl;
+					cout<<"b) Se debe asegurar que cada caso incluya una declaración break."<<endl;
+					cout<<"c) Solo se puede utilizar para evaluar expresiones booleanas."<<endl;
+					cout<<"d) No se puede utilizar en lenguajes de programación modernos."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<"La respuesta correcta es la (b)-Se debe asegurar que cada caso incluya una declaración break."<<endl<<endl;
+						}
+					cout<<"10-¿Cuál es la tabla de verdad para la operación lógica OR?"<<endl;
+					cout<<"a) 0 OR 0 = 0, 0 OR 1 = 1, 1 OR 0 = 1, 1 OR 1 = 0"<<endl;
+					cout<<"b) 0 OR 0 = 0, 0 OR 1 = 1, 1 OR 0 = 1, 1 OR 1 = 1"<<endl;
+					cout<<"c) 0 OR 0 = 0, 0 OR 1 = 0, 1 OR 0 = 0, 1 OR 1 = 1"<<endl;
+					cout<<"d) 0 OR 0 = 1, 0 OR 1 = 0, 1 OR 0 = 0, 1 OR 1 = 0"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<"La respuesta correcta es la (b)-(0 OR 0 = 0, 0 OR 1 = 1, 1 OR 0 = 1, 1 OR 1 = 1)"<<endl<<endl  ;
+						}								
+			///	break;
+			///	cout<<"RESOLVER PROCESOS LÓGICOS"<<endl; ///PREGUNTAS EDGAR
+					cout<<"11-¿Cuál de las siguientes opciones describe mejor una estructura de control en la construcción de algoritmos?"<<endl;
+					cout<<"a)Instrucciones que organizan los datos en un programa"<<endl;
+					cout<<"b)Métodos para generar números aleatorios."<<endl;
+					cout<<"c)Herramientas para controlar el flujo de ejecución de un programa"<<endl;
+					cout<<"d)Funciones para calcular valores numéricos."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" La respuesta correcta es c) Herramientas para controlar el flujo de ejecución de un programa "<<endl<<endl;
+						}	 
+					cout<<"12-¿Qué tipo de estructura de control se utiliza para repetir una acción un número específico de veces?"<<endl;
+					cout<<"a)Condicionales"<<endl;
+					cout<<"b)Bucles"<<endl;
+					cout<<"c)Funciones"<<endl;
+					cout<<"d)Variables"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" La respuesta correcta es b) Bucles "<<endl<<endl;
+						}	
+					cout<<"13-¿Cuál de las siguientes estructuras de control se utiliza para tomar decisiones basadas en múltiples casos?"<<endl;
+					cout<<"a)Condicional switch-case"<<endl;
+					cout<<"b)Bucle for"<<endl;
+					cout<<"c)Bucle while"<<endl;
+					cout<<"d)Condicionales if-else"<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='a')
 						{
 					  		cout<<"la respuesta es correcta"<<endl;
 					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" La respuesta correcta es a) Condicional switch-case"<<endl<<endl;
+						}	
+					cout<<"14-¿Qué estructura de control se utiliza para ejecutar una serie de instrucciones repetidamente mientras se cumple una condición?"<<endl;
+					cout<<"a)if-else"<<endl;
+					cout<<"b)for-loop"<<endl;
+					cout<<"c)while-loop"<<endl;
+					cout<<"d)switch-case"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" La respuesta correcta es c) while-loop "<<endl<<endl;
+						}
+					cout<<"15-¿Cuál de las siguientes opciones define mejor un bucle en la construcción de algoritmos?"<<endl;
+					cout<<"a)Una función que devuelve un valor."<<endl;
+					cout<<"b)Una estructura que ejecuta un bloque de código repetidamente hasta que se cumpla una condición."<<endl;
+					cout<<"c)Un condicional que toma decisiones basadas en múltiples casos."<<endl;
+					cout<<"d)Una estructura que define una relación entre dos conjuntos de datos."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" La respuesta correcta es b) Una estructura que ejecuta un bloque de código repetidamente hasta que se cumpla una condición."<<endl<<endl;
+						}										 
+					cout<<"16-¿Qué tipo de estructura de control se utiliza para ejecutar un bloque de código solo si una condición es verdadera?"<<endl;
+					cout<<"a)Bucles"<<endl;
+					cout<<"b)Funciones"<<endl;
+					cout<<"c)Condicional if-else"<<endl;
+					cout<<"d)Condicional switch-case"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" La respuesta correcta es c) Condicional if-else"<<endl<<endl;
+						}	 
+					cout<<"17-¿Qué estructura de control se utiliza para ejecutar un bloque de código si ninguna de las condiciones anteriores se cumple?"<<endl;
+					cout<<"a)if-else"<<endl;
+					cout<<"b)for-loop"<<endl;
+					cout<<"c)while-loop"<<endl;
+					cout<<"d)while-loop"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='a')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" La respuesta correcta es a) if-else"<<endl<<endl;
+						}	
+					cout<<"18-¿Cuál de las siguientes estructuras de control se utiliza para repetir una acción hasta que una condición se vuelva falsa?"<<endl;
+					cout<<"a)Condicional if-else"<<endl;
+					cout<<"b)Bucle for"<<endl;
+					cout<<"c)Bucle while"<<endl;
+					cout<<"d)Bucle do-while"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" La respuesta correcta es c Bucle while"<<endl<<endl;
+						}	
+					cout<<"19-¿Cuál de las siguientes opciones describe mejor la función de una estructura de control en la construcción de algoritmos?"<<endl;
+					cout<<"a)Organizar los datos en el programa"<<endl;
+					cout<<"b)Ejecutar cálculos matemáticos complejos."<<endl;
+					cout<<"c)Crear interfaces gráficas de usuario."<<endl;
+					cout<<"d)Controlar el flujo de ejecución del programa."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='d')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" La respuesta correcta es d) Controlar el flujo de ejecución del programa."<<endl<<endl;
+						}
+					cout<<"20-¿Cuál de las siguientes opciones describe mejor un arreglo en programación?"<<endl;
+					cout<<"a)Una estructura de datos que almacena valores de diferentes tipos."<<endl;
+					cout<<"b)Una secuencia ordenada de elementos del mismo tipo."<<endl;
+					cout<<"c)Un conjunto desordenado de elementos de diferentes tipos."<<endl;
+					cout<<"d)Una colección de variables con nombres similares."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" La respuesta correcta es b) Una secuencia ordenada de elementos del mismo tipo. "<<endl<<endl;
+						}		
+						//PREGUNTAS DANIEL
+				cout<<" LOGICA MATEMATICA: FUNDAMENTOS, LOGICA PROPOSICIONAL \n ";
+				cout<<"	ALGORITMO: CONCEPTO, TIPOS, TECNICAS PARA LA FORMULACION DE ALGORITMOS (PSEUDOCODIGO \n";
+				cout<<"	DIAGRAMAS DE FLUJO), ENTIDADES PRIMITIVAS, JERARQUIA DE OPERADORES, ESTRUCTURAS \n";
+				cout<<"	SECUENCIALES, CONDICIONALES, CICLICAS, ARREGLOS, PRUEBA DE ESCRITORIO "<<endl; 
+					cout<<"21- ¿Cuál de las siguientes afirmaciones describe mejor la lógica proposicional? "<<endl;
+					cout<<"a) Estudia las propiedades y relaciones cuantitativas entre los objetos "<<endl;
+					cout<<"b) Es una rama de las matemáticas que investiga las estructuras formales del razonamiento válido"<<endl;
+					cout<<"c) Se ocupa del estudio de las funciones y sus gráficas"<<endl;
+					cout<<"d) Analiza las transformaciones geométricas en el plano y en el espacio"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" la respuesta correcta es : (b) Es una rama de las matemáticas que investiga las estructuras formales del razonamiento válido "<<endl<<endl;
+						}	 
+					cout<<"22-¿Cuál es el propósito principal de utilizar pseudocódigo en la formulación de algoritmos? "<<endl;
+					cout<<"a) Es un lenguaje de programación ampliamente utilizado en la industria"<<endl;
+					cout<<"b) Facilita la comunicación de ideas y algoritmos entre personas sin necesidad de utilizar un lenguaje de programación específico"<<endl;
+					cout<<"c) Es más eficiente en términos de tiempo de ejecución que otros enfoques."<<endl;
+					cout<<"d) Permite ejecutar algoritmos en paralelo"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						cout<<" la respuesta correcta es : (b)	Facilita la comunicación de ideas y algoritmos entre personas sin necesidad de utilizar un lenguaje de programación específico "<<endl<<endl;
+						}	
+					cout<<"23-¿Qué tipo de estructura de control se utiliza para ejecutar un bloque de código repetidamente mientras una condición sea verdadera?"<<endl;
+					cout<<"a) Secuencial"<<endl;
+					cout<<"b) Condicional"<<endl;
+					cout<<"c) Cíclica"<<endl;
+					cout<<"d) Matricial"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" la respuesta correcta es : (c) Cíclica "<<endl<<endl;
+						}	
+					cout<<"24-¿Cuál de las siguientes opciones describe mejor una entidad primitiva en algoritmos?"<<endl;
+					cout<<"a) Un proceso que se puede realizar con un solo paso"<<endl;
+					cout<<"b) Una estructura de datos compleja"<<endl;
+					cout<<"c) Un error de sintaxis en un programa"<<endl;
+					cout<<"d) Una instrucción que requiere una operación complicada"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='a')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+					  		cout<<" la respuesta correcta es : (a) Un proceso que se puede realizar con un solo paso"<<endl<<endl;
+
 				    	}
 					else
 						{
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}
-					cout<<"10-¿que traduce la siguiente expresion?, how often"<<endl;
-					cout<<"a)duracion"<<endl;
-					cout<<"b)edad"<<endl;
-					cout<<"c)rapidez"<<endl;
-					cout<<"d)frecuencia"<<endl;
+					cout<<"25-¿Qué tipo de estructura de control se utiliza para ejecutar un bloque de código basado en una condición?"<<endl;
+					cout<<"a) Secuencial"<<endl;
+					cout<<"b) Condicional"<<endl;
+					cout<<"c) Cíclica"<<endl;
+					cout<<"d) Matricial"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" la respuesta correcta es : (b)  Condicional " <<endl<<endl;
+
+						}										 
+					cout<<"26-¿Cuál de las siguientes opciones describe mejor la prueba de escritorio en el contexto de la programación?"<<endl;
+					cout<<"a) Escribir el código de un programa en papel antes de pasarlo a la computadora."<<endl;
+					cout<<"b) Ejecutar el código de un programa y registrar los resultados obtenidos"<<endl;
+					cout<<"c) Analizar la estructura de un programa utilizando diagramas de flujo."<<endl;
+					cout<<"d) Verificar manualmente el funcionamiento de un algoritmo paso a paso utilizando datos de prueba."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='d')
@@ -526,8 +844,85 @@ main()
 						{
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
+							cout<<" la respuesta correcta es : (d) Verificar manualmente el funcionamiento de un algoritmo paso a paso utilizando datos de prueba  "<<endl<<endl;
+
+
+						}	 
+					cout<<"27-¿Qué tipo de estructura de control se utiliza para ejecutar un bloque de código una cantidad específica de veces?"<<endl;
+					cout<<"a) Secuencial"<<endl;
+					cout<<"b) Condicional"<<endl;
+					cout<<"c) Cíclica"<<endl;
+					cout<<"d) Matricial"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" la respuesta correcta es : (c) Cíclica  "<<endl<<endl;
+
+
+						}	
+					cout<<"28-¿Cuál de las siguientes opciones describe mejor la estructura de control secuencial en un algoritmo?"<<endl;
+					cout<<"a) Permite dividir un algoritmo en módulos independientes"<<endl;
+					cout<<"b) Ejecuta un conjunto de instrucciones en un orden específico, una después de la otra"<<endl;
+					cout<<"c) Selecciona entre diferentes caminos de ejecución basados en condiciones"<<endl;
+					cout<<"d) Ejecuta un bloque de código repetidamente mientras se cumple una condición"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" la respuesta correcta es : (b) Ejecuta un conjunto de instrucciones en un orden específico, una después de la otra  "<<endl<<endl;
+						}	
+					cout<<"29-¿Qué herramienta se utiliza para describir la secuencia de pasos lógicos de un algoritmo de manera estructurada y fácilmente comprensible?"<<endl;
+					cout<<"a) Lenguaje de programación"<<endl;
+					cout<<"b) Diagrama de Flujo de Datos (DFD)"<<endl;
+					cout<<"c) Lenguaje de Programación Estructurado (LPP)++"<<endl;
+					cout<<"d) seudocódigo (PSEINT)"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='d')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" la respuesta correcta es : (d) seudocódigo (PSEINT)  "<<endl<<endl;
+						}
+					cout<<"30-¿Qué herramienta se utiliza para definir la estructura y el comportamiento de un programa utilizando un conjunto de reglas y convenciones específicas?"<<endl;
+					cout<<"a) Lenguaje de programación"<<endl;
+					cout<<"b) Diagrama de Flujo de Datos (DFD)"<<endl;
+					cout<<"c) Lenguaje de Programación Estructurado (LPP)"<<endl;
+					cout<<"d) Pseudocódigo (PSEINT)"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+							cout<<" la respuesta correcta es : (c) Lenguaje de Programación Estructurado (LPP)  "<<endl<<endl;
 						}								
-				break;
+				break;					
 				case 4: cout<< "CODIFICAR EL SOFTWARE."<<endl<<endl;
 						cout<< "1-¿cual es el valor de 8942 en binario?"<<endl;
 						cout<< "a)10001011101110"<<endl;
@@ -535,7 +930,7 @@ main()
 						cout<< "c)10101011101110"<<endl;
 						cout<< "d)11010101010111"<<endl;
 						cin>>respuesta;
-						
+
 						if(respuesta=='a')
 							{
 						  		cout<<"la respuesta es correcta"<<endl;
@@ -552,7 +947,7 @@ main()
 						cout<< "c)64"<<endl;
 						cout<< "d)61"<<endl;
 						cin>>respuesta;
-						
+
 						if(respuesta=='b')
 							{
 						  		cout<<"la respuesta es correcta"<<endl;
@@ -569,7 +964,7 @@ main()
 						cout<< "c)1001110100"<<endl;
 						cout<< "d)1111100000"<<endl;
 						cin>>respuesta;
-						
+
 						if(respuesta=='c')
 							{
 						  		cout<<"la respuesta es correcta"<<endl;
@@ -586,7 +981,7 @@ main()
 						cout<< "c)12125"<<endl;
 						cout<< "d)12344"<<endl;
 						cin>>respuesta;
-						
+
 						if(respuesta=='b')
 							{
 						  		cout<<"la respuesta es correcta"<<endl;
@@ -603,7 +998,7 @@ main()
 						cout<< "c)100100"<<endl;
 						cout<< "d)110000"<<endl;
 						cin>>respuesta;
-						
+
 						if(respuesta=='a')
 							{
 						  		cout<<"la respuesta es correcta"<<endl;
@@ -620,7 +1015,7 @@ main()
 						cout<< "c)110011"<<endl;
 						cout<< "d)101010"<<endl;
 						cin>>respuesta;
-						
+
 						if(respuesta=='d')
 							{
 						  		cout<<"la respuesta es correcta"<<endl;
@@ -637,7 +1032,7 @@ main()
 						cout<< "c)527"<<endl;
 						cout<< "d)528"<<endl;
 						cin>>respuesta;
-						
+
 						if(respuesta=='d')
 							{
 						  		cout<<"la respuesta es correcta"<<endl;
@@ -654,7 +1049,7 @@ main()
 						cout<< "c)8234"<<endl;
 						cout<< "d)2348"<<endl;
 						cin>>respuesta;
-						
+
 						if(respuesta=='b')
 							{
 						  		cout<<"la respuesta es correcta"<<endl;
@@ -671,7 +1066,7 @@ main()
 						cout<< "c)110111"<<endl;
 						cout<< "d)111011"<<endl;
 						cin>>respuesta;
-						
+
 						if(respuesta=='a')
 							{
 						  		cout<<"la respuesta es correcta"<<endl;
@@ -688,7 +1083,7 @@ main()
 						cout<< "c)son un arreglo de dos caracteres, 1 y 0"<<endl;
 						cout<< "d)son el idioma del internet"<<endl;
 						cin>>respuesta;
-						
+
 						if(respuesta=='c')
 							{
 						  		cout<<"la respuesta es correcta"<<endl;
@@ -700,6 +1095,7 @@ main()
 					    		contan=contan-1;
 							}	
 			break;		
+						
 			case 5:
 					cout<<"CONSTRUIR LA BASE DE DATOS "<<endl; 
 					cout<<"1-¿Que es Mantenimiento de equipo de computo basico?"<<endl;
